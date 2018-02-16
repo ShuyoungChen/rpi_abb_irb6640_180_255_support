@@ -148,6 +148,10 @@ include_directories(
 #   ${catkin_LIBRARIES}
 # )
 
+xacro_add_files(urdf/irb6640_180_255.xacro OUTPUT urdf/irb6640_180_255.urdf INORDER INSTALL)
+
+
+
 #############
 ## Install ##
 #############
