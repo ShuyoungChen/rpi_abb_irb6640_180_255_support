@@ -23,6 +23,9 @@
           <color rgba="1 .42 .04 1"/>
         </material>        
       </visual>
+
+      <xacro:include filename="$(find rpi_abb_irb6640_180_255_support)/urdf/irb6640_180_255_base_link_inertial.xacro" />
+
     </link>
     <link name="${prefix}link_1">
       <xacro:link_1_geometry />
@@ -40,6 +43,7 @@
         </geometry>
         <material name="orange"/>         
       </visual>
+      <xacro:include filename="$(find rpi_abb_irb6640_180_255_support)/urdf/irb6640_180_255_link_1_inertial.xacro" />
     </link>
     <link name="${prefix}link_2">
       <xacro:link_2_geometry />
@@ -50,6 +54,7 @@
         </geometry>
         <material name="orange"/>   
       </visual>
+      <xacro:include filename="$(find rpi_abb_irb6640_180_255_support)/urdf/irb6640_180_255_link_2_inertial.xacro" />
     </link>
     <link name="${prefix}link_3">
       <xacro:link_3_geometry />
@@ -60,6 +65,7 @@
         </geometry>
         <material name="orange"/>   
       </visual>
+      <xacro:include filename="$(find rpi_abb_irb6640_180_255_support)/urdf/irb6640_180_255_link_3_inertial.xacro" />
     </link>
     <link name="${prefix}link_4">
       <xacro:link_4_geometry />
@@ -70,6 +76,7 @@
         </geometry>
         <material name="orange"/>
       </visual>
+      <xacro:include filename="$(find rpi_abb_irb6640_180_255_support)/urdf/irb6640_180_255_link_4_inertial.xacro" />
     </link>
     <link name="${prefix}link_5">
       <xacro:link_5_geometry />
@@ -80,6 +87,7 @@
         </geometry>
         <material name="orange"/>
       </visual>
+      <xacro:include filename="$(find rpi_abb_irb6640_180_255_support)/urdf/irb6640_180_255_link_5_inertial.xacro" />
     </link>
     <link name="${prefix}link_6">
       <xacro:link_6_geometry />
@@ -90,6 +98,7 @@
         </geometry>
         <material name="orange"/>
       </visual>
+      <xacro:include filename="$(find rpi_abb_irb6640_180_255_support)/urdf/irb6640_180_255_link_6_inertial.xacro" />
     </link>
     <link name="${prefix}tool0"/>
 
